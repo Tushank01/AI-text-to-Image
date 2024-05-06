@@ -65,7 +65,6 @@ const ImageGenerationForm = () => {
     setLoading(false);
   };
 
-
   const downloadImage = () =>{
     const link = document.createElement("a");
     link.href = output
@@ -76,7 +75,7 @@ const ImageGenerationForm = () => {
   }
 
   return (<div className="container imageGen al-c mt-3">
-    <h1 className="font-extrabold text-[40px]">Stable <span>Diffusion</span></h1>
+    <h1 className="font-extrabold text-[40px]">Text  to <span>Image</span></h1>
     <p className="mt-2 text-[15px] max-w-[500px]">Welcome to text to image, Image Generation </p>
     <form className="generate-form mt-2" onSubmit={handleSubmit}>
       <input type="text" name="input" placeholder="type your prompt here..." onChange={(e)=>setPrompt(e.target.value)} />
@@ -94,7 +93,6 @@ const ImageGenerationForm = () => {
       </div>
     )}
     </div>
-
     </div>);
   
 };

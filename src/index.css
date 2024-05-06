@@ -9,6 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #333;
+  background-color: #f1f0e8;
 }
 
 code {
@@ -25,7 +26,7 @@ header{
   align-items: center;
   justify-content: space-between;
   padding: 10px 80px;
-  background-color: #ffff;
+  background-color: #f1f0e8;
 }
 
 header .menu{
@@ -121,6 +122,8 @@ header .menu .link{
   display: flex;
   align-items: center;
   width: 100%;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+  
 }
 
 .generate-form input{
@@ -128,6 +131,7 @@ header .menu .link{
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 10px;
+
 }
 
 .generate-form input:focus{
@@ -142,6 +146,7 @@ header .menu .link{
   color: #fff;
   padding: 10px;
   cursor: pointer;
+  
 }
 
 .imageGen .result-image{

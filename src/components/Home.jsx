@@ -21,12 +21,11 @@ function Home() {
     getPosts()
   },[])
 
-
   return (
     <div className='container mt-2' style={{marginTop: "40px"}}>
       
       <h1 className='font-extrabold text-[40px]'>The Community  <span>Showcase</span></h1>
-    <p className='mt-2 text-[15px] max-w-[500px]'>welcome to text-to-image generation post</p>
+    <p className='mt-2 text-[15px] max-w-[500px]' style={{ fontFamily:"cursive", fontWeight: "" }} >welcome to text-to-image generation post</p>
     <div className="m-10">
       {loading?(
         <div className="flex justify-center items-center">
